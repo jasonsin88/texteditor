@@ -18,15 +18,19 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+
+      // Webpack plugin
       new HtmlWebpackPlugin({
         template: './index.html',
       }),
 
+      // Service worker
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
 
+      // Creates manifest.json file
       new WebpackPwaManifest({
         name: 'JATE',
         short_name: 'JATE',
@@ -48,6 +52,7 @@ module.exports = () => {
     ],
 
     module: {
+      // CSS loaders
       rules: [
        {
           test: /\.css$/i,
@@ -56,6 +61,7 @@ module.exports = () => {
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
+          
           // We use babel-loader in order to use ES6.
           use: {
             loader: 'babel-loader',
