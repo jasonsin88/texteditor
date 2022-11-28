@@ -20,6 +20,8 @@
 
 a browser-based text editor in which the user can create notes or code snippets with or without an internet connection, and where the user can retrieve the date for later use. The offline capabilities are achieved using the integrated service worker and Cache API and allows the user to access visited pages even if the app is offline.
 
+Deployed live app at: https://rocky-hollows-58716.herokuapp.com/
+
 ## Table of Contents
 - [Technologies](#technologies)
 - [Installation](#installation)
