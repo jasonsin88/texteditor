@@ -23,7 +23,7 @@ a browser-based text editor in which the user can create notes or code snippets 
 ## Table of Contents
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Screenshots](#screenshots)
 - [License](#license)
 - [Contributing](#contributing)
 
@@ -51,10 +51,24 @@ npm i
 
 After installation is completed, input the following to run the application:
 ```
-npm start
+npm run start
 ```
 
-## Usage
+## Screenshots
+J.A.T.E. in-browser:
+![JATE](/Assets/images/JATE.JPG)
+
+J.A.T.E. installed app: <br/>
+![JATE-installed](/Assets/images/JATE%20installed.JPG)
+
+J.A.T.E. `manifest.json` file:
+![JATE-manifest](/Assets/images/JATE%20manifest.JPG)
+
+J.A.T.E. registered Service Worker:
+![JATE-ServiceWorker](/Assets/images/JATE%20service%20worker.JPG)
+
+J.A.T.E. IndexedDB storage:
+![JATE-IndexedDB](/Assets/images/JATE%20indexedDB.JPG)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) <br/>
